@@ -1,0 +1,8 @@
+kubectl get nodes
+kubectl get pods
+kubectl describe pod <pod-name>
+kubectl get pods -o wide          -   more specification about pod
+
+
+kubectl run redis --image=redis123 --dry-run=client -o yaml > redis.yml   -   to create a yaml file for a pod
+kubectl apply -f redis.yml

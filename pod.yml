@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: pod
+metedata:
+  name: nginx-app
+  labels:
+    app: nginx
+    type: front-end
+spec:
+  containers:
+  - name: nginx
+    image: nginx
