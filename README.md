@@ -1,7 +1,6 @@
 ### Kubernetes Commands
 Here are some essential Kubernetes commands for managing clusters, nodes, pods, services, and other resources.
 
-## Kubernetes Commands
 
 ### Basic Commands:
 
